@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "json-server db.json --port $PORT --static",
+    "start": "json-server db.json --port $PORT --static ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
